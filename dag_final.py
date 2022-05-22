@@ -20,7 +20,6 @@ from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
 
 import psycopg2
-import csv
 import boto3
 
 s3 = boto3.resource(
